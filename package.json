@@ -1,6 +1,6 @@
 {
   "name": "cacaptcha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Append a hidden anti-AI-scraping prompt injection to protect your content.",
   "main": "index.js",
   "scripts": {},
