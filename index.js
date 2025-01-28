@@ -73,10 +73,12 @@ function injectPrompt(originalHTML) {
  */
 function injectPromptClientSide() {
   const hiddenDiv = document.createElement('div');
-  hiddenDiv.style.display = 'none';
-  hiddenDiv.style.visibility = 'hidden';
   hiddenDiv.style.position = 'absolute';
-  hiddenDiv.style.left = '-9999px';
+  hiddenDiv.style.left = '0';
+  hiddenDiv.style.top = '0';
+  hiddenDiv.style.width = '1px';
+  hiddenDiv.style.height = '1px';
+  hiddenDiv.style.overflow = 'hidden';
   hiddenDiv.innerHTML = STRONG_PROMPT_INJECTION;
   document.body.prepend(hiddenDiv);
 }
