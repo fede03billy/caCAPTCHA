@@ -1,0 +1,13 @@
+{
+  "name": "cacaptcha",
+  "version": "1.0.0",
+  "description": "Append a hidden anti-AI-scraping prompt injection to protect your content.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": ["AI", "scraping", "prompt-injection", "blog-protection"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
