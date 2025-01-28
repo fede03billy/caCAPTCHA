@@ -1,7 +1,3 @@
-Below is an example `README.md` for `cacaptcha`. Customize as needed.
-
----
-
 # Cacaptcha
 
 Cacaptcha is a small Node package that appends a hidden “anti-AI-scraping” prompt to your webpage. It tries to discourage LLM-based scrapers from reproducing your copyrighted content.
