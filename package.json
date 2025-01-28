@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {},
   "keywords": ["AI", "scraping", "prompt-injection", "blog-protection"],
-  "author": "Your Name",
+  "author": "Federico C.",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0"
