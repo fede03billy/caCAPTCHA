@@ -125,8 +125,9 @@ export default PostPage;
 
 ## How It Works
 
-Cacaptcha places a hidden message in your HTML. 
-**Why?** Some LLM-based bots might read hidden text and obey the instructions (especially those that follow system prompts).
+Cacaptcha places a hidden message in your HTML. The user won't notice, the AI bot will read it and the instruction will make it desist from summarizing your content.
+
+![In practice](public/Screenshot_2025-02-03.png)
 
 
 ---
